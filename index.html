@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@100;300&display=swap" rel="stylesheet">
+    <script src="index.js" defer></script>
+    <link href="style.css" rel="stylesheet">
+    <title>Timer</title>
+</head>
+<body>
+    <div id="container" class="container">
+        <h class="title">Timer</h>
+        <svg class="timer" height="220" width="220" id="pic" >
+            <circle class='clock' cy="110" cx="110" r="103"></circle>
+            <circle class='clock-strokes' cy="110" cx="110" r="96" stroke-dasharray="0 50.265482457423 0.5 49.765482457423 0.5 49.765482457423" stroke-dashoffset="150.79644737227"></circle>
+            <text x="106" y="26" >12</text>
+            <text x="200" y="115" >3</text>
+            <text x="106" y="206" >6</text>
+            <text x="13" y="115" >9</text>
+            <circle  cy="110" cx="110" r="3"></circle>
+            <line class="second-arrow" x1="110" y1="125" x2="110" y2="36"></line>
+            <line class="minute-arrow" x1="110" y1="120" x2="110" y2="56"></line>
+        </svg>
+        <p class="time" id="time">00:00</p>
+        <div id="buttons" class="buttons">
+            <button class="button" id="stop"><img src="pause.png"/></button>
+            <button class="button" id="reset"><img src="reset.png" width="32px" height="32px"/></button>
+            <button class="button" id ="start"><img src="stopwatch.png" width="32px" height="32px"/></button>
+        </div>
+    </div>
+</body>
+</html>

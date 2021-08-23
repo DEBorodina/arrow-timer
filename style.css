@@ -1,0 +1,82 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #95c7d2;
+  font-family: "Urbanist", sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+  margin-top: 20px;
+  height: 500px;
+  width: 20%;
+  min-width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background: linear-gradient(145deg, #b7e2e8, #ffffff);
+  border-radius: 20px;
+  box-shadow: 4px 4px 39px 13px rgba(34, 60, 80, 0.16);
+}
+
+.title {
+  padding-left: 15px;
+  font-weight: 300;
+  letter-spacing: 15px;
+  font-size: 36px;
+  text-transform: uppercase;
+}
+
+.time {
+  font-weight: 100;
+  font-size: 36px;
+}
+
+.clock-strokes {
+  fill: none;
+  stroke-width: 14px;
+  stroke: #000000;
+}
+
+.clock {
+  fill: #f6fafb;
+}
+
+.second-arrow {
+  stroke: #000000;
+  stroke-width: 0.5;
+}
+
+.minute-arrow {
+  stroke: #000000;
+  stroke-width: 0.75px;
+}
+
+.buttons {
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.button {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 50%;
+  background: #f6fafb;
+  box-shadow: 20px 20px 28px #dde1e2, -20px -20px 28px #ffffff;
+}
+
+.button:active {
+  background: linear-gradient(145deg, #dde1e2, #ffffff);
+  box-shadow: 20px 20px 28px #dde1e2, -20px -20px 28px #ffffff;
+}
