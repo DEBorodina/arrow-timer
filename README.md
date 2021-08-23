@@ -5,7 +5,7 @@ Simple arrow timer. Can be used to count seconds and minutes. *Stop*, *start* an
 
 ### TECHNOLOGIES
 - setTimeout
-- svg (*<line>*,*<circle>*)
+- svg (<line>, <circle>)
 
 ### DEMO
 [Watch](https://deborodina.github.io/arrow-timer/)
